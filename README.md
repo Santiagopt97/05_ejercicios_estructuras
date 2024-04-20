@@ -12,6 +12,7 @@
 11. Verifica si un número es mayor que -10 y menor que 10.
 12. Determina si un número es un año bisiesto.
 13. Verifica si una persona es mayor de edad (mayor o igual a 18 años).
+14. 
 15. Verifica si un número es un cuadrado perfecto.
 16. Determina si un número es un número de Fibonacci.
 17. Verifica si un número es una potencia de 2.
