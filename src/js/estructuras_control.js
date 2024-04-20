@@ -1,14 +1,51 @@
-// 1. Verifica si un número es positivo.
+// 1. Verifica si un número es positivo. 
+let numero = prompt("Ingresa un numero")
+if (Math.sign(numero)==1) {
+    console.info(`El numero ${numero} es positivo`)
+}else if(Math.sign(numero)==-1){  // 2. Verifica si un número es negativo.
+    console.info(`El numero ${numero} es negativo`)
+}else {
+    console.info(`El numero ${numero} es 0`)
+}
 
-// 2. Verifica si un número es negativo.
+
 // 3. Comprueba si un número es par.
-// 4. Comprueba si un número es impar.
+if(numero%2==0){
+    console.info(`El numero ${numero} es par`)
+}else{
+    console.info(`El numero ${numero} es impar`) // 4. Comprueba si un número es impar.
+}
+
 // 5. Determina si un número es múltiplo de 5.
+
+
 // 6. Verifica si un número es divisible entre 3.
+if (numero%3 == 0) {
+    console.info(`El numero ${numero} es divisible entre 3`)
+}else{
+    console.info(`El numero ${numero} no es divisible entre 3`)
+}
+
 // 7. Determina si un número es mayor que 100.
+if (numero>100) {
+    console.info(`El numero ${numero} es mayor que 100`)
+}else{
+    console.info(`El numero ${numero} no es mayor que 100`)
+}
+
 // 8. Verifica si un número es menor que -50.
+if (numero) {
+    console.info(`El numero ${numero} es mayor que -50`)
+}else{
+    console.info(`El numero ${numero} no es mayor que -50`)    
+}
+
 // 9. Comprueba si un número está en el rango de 20 a 50.
+if (numero>=20 && numero<=50) {
+    console.info(`El numero ${numero} esta en el rango de 20 a 50`)
+}
 // 10.Determina si un número es igual a 0.
+
 // 11.Verifica si un número es mayor que -10 y menor que 10.
 // 12.Determina si un número es un año bisiesto.
 // 13.Verifica si una persona es mayor de edad (mayor o igual a 18 años).
