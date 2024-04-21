@@ -17,7 +17,9 @@ if(numero%2==0){
 }
 
 // 5. Determina si un número es múltiplo de 5.
-
+if(numero%5==0){
+    console.info(`El numero ${numero} es multiplo de 5`)
+}
 
 // 6. Verifica si un número es divisible entre 3.
 if (numero%3 == 0) {
@@ -34,7 +36,7 @@ if (numero>100) {
 }
 
 // 8. Verifica si un número es menor que -50.
-if (numero) {
+if (numero>-50) {
     console.info(`El numero ${numero} es mayor que -50`)
 }else{
     console.info(`El numero ${numero} no es mayor que -50`)    
@@ -45,10 +47,22 @@ if (numero>=20 && numero<=50) {
     console.info(`El numero ${numero} esta en el rango de 20 a 50`)
 }
 // 10.Determina si un número es igual a 0.
-
+if (numero == 0) {
+    console.info(`El numero ${numero} es igual a 0`)
+}
 // 11.Verifica si un número es mayor que -10 y menor que 10.
+if(numero>-10 && numero<10){
+    console.info(`El numero ${numero} esta entre -10 y 10`)
+}
 // 12.Determina si un número es un año bisiesto.
+
 // 13.Verifica si una persona es mayor de edad (mayor o igual a 18 años).
+let edad = prompt("Ingresa tu edad")
+if (edad>=18) {
+    console.info(`La persona es mayor de edad`)
+}else{
+    console.info(`La persona no es mayor de edad`)
+}
 // 14.
 // 15.Verifica si un número es un cuadrado perfecto.
 // 16.Determina si un número es un número de Fibonacci.
